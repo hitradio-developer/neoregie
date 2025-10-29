@@ -1,6 +1,6 @@
 module.exports = {
     apps: [{
-      name: 'hitradio-ci-nextjs-app',
+      name: 'neoregie-nextjs-app',
       script: 'node_modules/next/dist/bin/next',
       args: 'start',
       instances: 1, // Utilise tous les cœurs CPU
@@ -14,4 +14,4 @@ module.exports = {
       out_file: 'logs/out.log',
       merge_logs: true
     }]
-  }
+  };

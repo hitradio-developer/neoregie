@@ -18,49 +18,49 @@ const basePath = process.env.NODE_ENV === "production" ? "/crypto-nextjs" : "";
 
 export const Companiesdata: { imgSrc: string }[] = [
   {
-    imgSrc: `${basePath}/images/companies/birdseye.svg`,
+    imgSrc: `/images/companies/birdseye.svg`,
   },
   {
-    imgSrc: `${basePath}/images/companies/break.svg`,
+    imgSrc: `/images/companies/break.svg`,
   },
   {
-    imgSrc: `${basePath}/images/companies/keddar.svg`,
+    imgSrc: `/images/companies/keddar.svg`,
   },
   {
-    imgSrc: `${basePath}/images/companies/shield.svg`,
+    imgSrc: `/images/companies/shield.svg`,
   },
   {
-    imgSrc: `${basePath}/images/companies/tandov.svg`,
+    imgSrc: `/images/companies/tandov.svg`,
   },
   {
-    imgSrc: `${basePath}/images/companies/tree.svg`,
+    imgSrc: `/images/companies/tree.svg`,
   },
 ];
 
 export const workdata: WorkType[] = [
   {
-    imgSrc: `${basePath}/images/work/trophy.svg`,
+    imgSrc: `/images/work/trophy.svg`,
     heading: "Expertise",
     subheading:
       `• Maîtrise technique <br/>
         • Compétences transversales`,
   },
   {
-    imgSrc: `${basePath}/images/work/business.svg`,
+    imgSrc: `/images/work/business.svg`,
     heading: "Créativité",
     subheading:
        `• Force de proposition <br/>
 • De la valeur ajoutée`,
   },
   {
-    imgSrc: `${basePath}/images/work/pie-chart.svg`,
+    imgSrc: `/images/work/pie-chart.svg`,
     heading: "Flexibilité",
     subheading:
       `• A l’écoute des exigences <br/>
 • Adaptation aux besoins`,
   },
   {
-    imgSrc: `${basePath}/images/work/column-chart.svg`,
+    imgSrc: `/images/work/column-chart.svg`,
     heading: "Réactivité",
     subheading:
      `• Disponibilité<br/>• Respect des délais`
@@ -69,19 +69,19 @@ export const workdata: WorkType[] = [
 
 export const Featuresdata: FeatureType[] = [
   {
-    imgSrc: `${basePath}/images/features/featureOne.svg`,
+    imgSrc: `/images/features/featureOne.svg`,
     heading: "Secure Storage",
     subheading:
       "Your crypto is protected with advanced encryption and offline cold wallets, ensuring top-tier security and privacy.",
   },
   {
-    imgSrc: `${basePath}/images/features/featureTwo.svg`,
+    imgSrc: `/images/features/featureTwo.svg`,
     heading: "Free to Use",
     subheading:
       "Enjoy powerful portfolio tracking, live analytics, and account management tools — all without any hidden fees.",
   },
   {
-    imgSrc: `${basePath}/images/features/featureThree.svg`,
+    imgSrc: `/images/features/featureThree.svg`,
     heading: "Real-Time Price Data",
     subheading:
       "Get live crypto prices, market updates, and real-time data from top global exchanges — all in one place, 24/7.",
@@ -108,19 +108,19 @@ export const Faqdata: FaqType[] = [
 
 export const Sociallinkdata: SocialType[] = [
   {
-    imgsrc: `${basePath}/images/footer/insta.svg`,
+    imgsrc: `/images/footer/insta.svg`,
     href: "https://instagram.com/",
   },
   {
-    imgsrc: `${basePath}/images/footer/dribble.svg`,
+    imgsrc: `/images/footer/dribble.svg`,
     href: "https://dribble.com/",
   },
   {
-    imgsrc: `${basePath}/images/footer/twitter.svg`,
+    imgsrc: `/images/footer/twitter.svg`,
     href: "https://twitter.com/",
   },
   {
-    imgsrc: `${basePath}/images/footer/youtube.svg`,
+    imgsrc: `/images/footer/youtube.svg`,
     href: "https://youtube.com/",
   },
 ];
